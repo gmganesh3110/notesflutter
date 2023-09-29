@@ -5,8 +5,6 @@ const cors = require('cors');
 const morgan = require('morgan');
 const path = require('path')
 const mongoose = require('mongoose');
-const index = require("./build/web/index.html");
-console.log(index)
 dotenv.config();
 const app = express();
 app.use(bodyParser.json());
